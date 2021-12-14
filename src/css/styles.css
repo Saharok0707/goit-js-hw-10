@@ -21,6 +21,13 @@ body {
   margin-bottom: 16px;
 }
 
+
+.flag-country-block {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
 .flag {
   height: 20px;
   margin-right: 10px;
@@ -28,6 +35,9 @@ body {
 .country-info-details {
   padding-left: 0px;
   list-style-type: none;
+}
+.country-info-item {
+  margin: 0;
 }
 
 h1 {
@@ -45,4 +55,26 @@ h2 {
   font-family: sans-serif;
 }
 
+.country-list {
+  padding-left: 0px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.country-list-item {
+  display: flex;
+  align-items: center;
+}
 
+.flag-list {
+  margin-right: 10px;
+  height: auto;
+  width: 30px;
+}
+
+.list-item-h2 {
+  display: inline-block;
+  margin: 0;
+  font-size: 1.5em;
+  font-family: sans-serif;
+} 
