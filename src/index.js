@@ -59,6 +59,7 @@ function renderCountryInfo(countryGetInfo) {
                 general.countryList.innerHTML = '';
             }
 
+            // about country
     function AddCountryFullInfo(countryGetInfo) {
         return general.countryInfo.insertAdjacentHTML("beforeend", `<div class="flag-country-block">
         <img

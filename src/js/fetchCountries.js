@@ -22,6 +22,7 @@ export default class RestCountriesAPI {
                 }
                 return response.json();
             })
+        
             .then(data => {
                 console.log(data);
                 if (data.length > 10) {
