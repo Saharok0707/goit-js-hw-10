@@ -1,17 +1,17 @@
 
-* {
+    * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-image: url('../images/bg-pattern.png');
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+        background-image: url('../images/bg-pattern.png');
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
   color: #212121;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 #search-box {
@@ -21,60 +21,28 @@ body {
   margin-bottom: 16px;
 }
 
-
-.flag-country-block {
-  display: flex;
-  align-items: center;
-  width: 50%;
-}
-
-.flag {
-  height: 20px;
-  margin-right: 10px;
-}
-.country-info-details {
-  padding-left: 0px;
-  list-style-type: none;
-}
-.country-info-item {
-  margin: 0;
-}
-
-h1 {
+.card-img,
+.card-title {
   display: inline-block;
-  margin: 0;
 }
 
-h2 {
-  display: inline-block;
-  margin: 0;
+.card-title {
+  font-size: 36px;
+  margin-left: 10px;
 }
 
-.info-value {
-  font-size: 1.4em;
-  font-family: sans-serif;
+.card-text {
+  font-size: 22px;
 }
 
-.country-list {
-  padding-left: 0px;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.country-list-item {
-  display: flex;
-  align-items: center;
+.card-text span {
+  font-weight: 700;
 }
 
-.flag-list {
-  margin-right: 10px;
-  height: auto;
-  width: 30px;
+.card-item {
+  list-style: none;
 }
 
-.list-item-h2 {
-  display: inline-block;
-  margin: 0;
-  font-size: 1.5em;
-  font-family: sans-serif;
+p.card-title {
+  font-size: 22px;
 }
